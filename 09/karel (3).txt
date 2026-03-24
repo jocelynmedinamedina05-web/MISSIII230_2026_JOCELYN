@@ -1,0 +1,15 @@
+iniciar-programa
+
+	define-nueva-instruccion gira(jos) como
+    	inicio
+        	repetir jos veces 
+            inicio
+        	gira-izquierda;
+           fin;
+        fin;   
+            
+    inicia-ejecucion
+        gira(3000);
+        apagate;
+    termina-ejecucion
+finalizar-programa
